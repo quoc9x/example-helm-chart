@@ -1,0 +1,7 @@
+apiVersion: v2
+name: mynginx
+description: A Helm chart to deploy a demo of Nginx hello
+type: application
+# Version của chart
+version: 0.1.0
+appVersion: latest

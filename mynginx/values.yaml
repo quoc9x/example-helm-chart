@@ -1,0 +1,4 @@
+image: cuongquocvn/angular-cicd-config:latest
+port: 80
+identity_key: abcxyz
+nodeport: 32201
