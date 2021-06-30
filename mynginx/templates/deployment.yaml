@@ -14,5 +14,10 @@ spec:
       containers:
       - name: {{ .Release.Name }}
         image: {{ .Values.image }}
+        env:
+          - name: ENVVAR1
+            value: {{ .Values.value1 }}
+          - name: ENVVAR2
+            value: {{ .Values.value2 }}
         ports:
         - containerPort: {{ .Values.port }}
