@@ -21,5 +21,5 @@ qwrite/mynginx	0.1.0        	latest      	A Helm chart for Kubernetes
 $ helm show values qwrite/mynginx > values.yaml
 
 # Install chart with your configurations
-$ helm install myangularapp cuongquoc_vn/mynginx
+$ helm install myangularapp qwrite/mynginx
 ```
