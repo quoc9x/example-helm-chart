@@ -1,6 +1,6 @@
 image: cuongquocvn/angular-cicd-config:latest
 port: 80
-value1: hello
-value2: world
+value1: hello 123
+value2: world 123
 identity_key: abcxyz
-nodeport: 32201
+nodeport: 32202
